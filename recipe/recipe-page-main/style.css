@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f3e6d8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 16px;  
+}
+
+.outer-container {
+    background-color: #ffffff;
+    margin: 100px 0;                
+    width: 100%;                      
+    max-width: 736px;                  
+    padding: 40px;                    
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;              
+    justify-content: center;
+    border-radius: 24px;              
+}
+ 
+.outer-container img{
+    width: 100%;                     
+    height: 300px;                                     
+    border-radius: 12px;               
+                                     
+}
+ 
+.outer-container h1{
+    font-family: 'Young Serif', serif;  
+    font-size: 40px;                   
+    font-weight: 400;                        
+    margin-top: 32px;                  
+    margin-left: 0;                
+                 
+}
+ 
+.outer-container p {
+    font-size: 18px;                   
+    font-weight: 300;                                
+    margin-top: 0; 
+
+}
+ 
+
+.header-text p {
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+ 
+.preperation-time {
+    border-radius: 12px;
+    padding: 28px;
+    margin-bottom: 32px;
+    background-color: #fff5fa;
+}
+ 
+.preperation-time h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #7b284f; 
+}
+
+
+.ingredents h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #854632;   
+}
+
+
+.instructions h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #854632;   
+}
+ 
+
+.preperation-time ul {
+    padding-left: 28px;
+}
+ 
+.preperation-time li {
+    padding-left: 18px;         
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+ 
+.ingredents {
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+    border-bottom: 1px solid #666565; 
+}
+ 
+.ingredents ul {
+    padding-left: 20px;
+}
+ 
+.ingredents li {
+    padding-left: 20px;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+ 
+.instructions {
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+    border-bottom: 1px solid #666565;
+}
+ 
+.instructions ol {
+    padding-left: 20px;
+}
+ 
+.instructions li {
+    padding-left: 12px;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+ 
+
+.nutrition-text h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #854632; 
+}
+ 
+.nutrition-text p {
+    margin-bottom: 20px;
+}
+ 
+
+.each-nutrition-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 32px;
+    border-bottom: 1px solid #666565;
+}
+
+.each-nutrition-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 32px;
+    border-bottom: 1px solid #666565;
+}
+ 
+.each-nutrition-three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 32px;
+    border-bottom: 1px solid #666565;
+}
+
+.each-nutrition-four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 32px;
+}
+ 
+.each-nutrition-one h4 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.each-nutrition-two h4 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.each-nutrition-three h4 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.each-nutrition-four h4 {
+    font-size: 16px;
+    font-weight: 300;
+}
